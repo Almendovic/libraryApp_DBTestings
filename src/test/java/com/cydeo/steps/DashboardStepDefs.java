@@ -80,6 +80,25 @@ public class DashboardStepDefs
 
 
 
+            //Books
+        //Run Query
+         DB_Util.runQuery("select count(*) from books");
+
+
+
+
+        //Store Data
+
+
+        //Compare
+
+
+
+
+
+
+
+
         // Close Connection
         // DB_Util.destroy(); --> After("@db") will close connections
 

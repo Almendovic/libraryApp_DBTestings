@@ -1,4 +1,4 @@
-select * from library2;
+
 
 
 
@@ -18,5 +18,12 @@ where name='Agile Testing';
 SELECT * from book_borrow
 where is_returned=0;
 
-SELECT * from book_borrow
-where
+select full_name from  users
+where email='librarian43@library';
+
+
+select status from users
+where status ='INACTIVE';
+
+SELECT status from users
+where email=''

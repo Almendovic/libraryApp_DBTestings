@@ -25,5 +25,6 @@ where email='librarian43@library';
 select status from users
 where status ='INACTIVE';
 
-SELECT status from users
-where email=''
+SELECT status from users;
+
+select name from book_categories;
